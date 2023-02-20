@@ -1,0 +1,179 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "(7.0.0-rc2-153-g7d6218acb4)"
+    },
+    "CreationDate": "2023-02-19T17:36:37+08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "RAK3172-M.2-2230-Mod - panel",
+      "GUID": "52414b33-3137-4322-9d4d-2e322d323233",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 76.1,
+      "Y": 70.075
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 0.8,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true,
+    "EdgeConnector": true,
+    "EdgeConnectorBevelled": false
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-Layer 1 Front Signals.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-Layer 2 Ground.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-Layer 3 Power.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-Layer 4 Back Signals.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "RAK3172-M.2-2230-Mod - panel-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Layer 1 Front Signals"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "Layer 1 Front Signals/Layer 2 Ground",
+      "Notes": "Type: dielectric layer 1 (from Layer 1 Front Signals to Layer 2 Ground)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Layer 2 Ground"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.44,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "Layer 2 Ground/Layer 3 Power",
+      "Notes": "Type: dielectric layer 2 (from Layer 2 Ground to Layer 3 Power)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Layer 3 Power"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "Layer 3 Power/Layer 4 Back Signals",
+      "Notes": "Type: dielectric layer 3 (from Layer 3 Power to Layer 4 Back Signals)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Layer 4 Back Signals"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

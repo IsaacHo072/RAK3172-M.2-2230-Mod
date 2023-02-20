@@ -801,7 +801,7 @@
     (property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG")
     (path "/d2ecf315-7fa8-4302-aaaa-d46f0ffdb889/753f8d3f-ce61-4cce-9bc4-3dcdc37c58f5")
     (attr exclude_from_pos_files)
-    (fp_text reference "CN201" (at 0 2.7 90) (layer "F.SilkS")
+    (fp_text reference "CN201" (at 0 1.7 90) (layer "F.SilkS")
         (effects (font (size 0.6 0.6) (thickness 0.1)))
       (tstamp f0338bc9-39d4-4a10-afb1-318abccc90a0)
     )

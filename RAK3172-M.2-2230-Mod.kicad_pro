@@ -542,8 +542,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "RAK3172-M.2-2230-Mod.step",
+      "vrml": "RAK3172-M.2-2230-Mod.wrl"
     },
     "page_layout_descr_file": ""
   },
